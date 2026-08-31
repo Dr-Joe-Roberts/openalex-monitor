@@ -1,4 +1,4 @@
-"""Archive and compare monthly OpenAlex author data."""
+"""Archive, compare, and report monthly OpenAlex author data."""
 
 from __future__ import annotations
 

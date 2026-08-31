@@ -4,14 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 6 1 * *"
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/openalex-monitor.yml"
-      - "monitor.py"
-      - "requirements.txt"
-      - "tests/**"
 
 permissions:
   contents: write
@@ -39,7 +31,7 @@ jobs:
         run: python -m pip install --upgrade pip && pip install -r requirements.txt pytest
 
       - name: Run tests
-        run: python -m pytest -q
+        run: pytest -q
 
       - name: Fetch OpenAlex data
         run: python monitor.py
@@ -48,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data plots
+          git add README.md data reports plots
           if git diff --cached --quiet; then
             echo "No data changes to commit"
           else

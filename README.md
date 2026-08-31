@@ -5,16 +5,24 @@
 Reproducible monthly monitoring of [Joe M. Roberts's OpenAlex profile](https://openalex.org/A5060369592). The project records both the unmodified OpenAlex metrics and a curated view that removes confirmed author-disambiguation errors.
 
 <!-- MONITOR:START -->
-*Last updated: 2026-08-31T08:14:18 UTC*
+*Last updated: 2026-08-31T08:43:48 UTC*
 
-| Metric | OpenAlex raw | Curated |
-|---|---:|---:|
-| Works | 54 | 50 |
-| Citations | 431 | 386 |
-| h-index | 11 | 9 |
-| i10-index | 12 | 9 |
+**Compared with:** baseline snapshot  
+**Full monthly report:** [`reports/latest.md`](reports/latest.md)  
+**Machine-readable monthly record:** [`data/monthly/2026-08.json`](data/monthly/2026-08.json)
 
-The curated view excludes 4 confirmed misattributions listed in [`config/author.json`](config/author.json). It does not automatically discard preprints or other legitimate versions.
+| Metric | OpenAlex raw | Change | Curated | Change |
+|---|---:|---:|---:|---:|
+| Works | 54 | — | 50 | — |
+| Citations | 431 | — | 386 | — |
+| h-index | 11 | — | 9 | — |
+| i10-index | 12 | — | 9 | — |
+
+### Manuscripts gaining citations
+
+This is the baseline snapshot; changes will appear after the next monthly run.
+
+The curated view excludes 4 confirmed misattributions listed in [`config/author.json`](config/author.json). Newly indexed works are reported separately from citation gains.
 
 ![Citation history](plots/citation_history.png)
 
@@ -22,7 +30,7 @@ The curated view excludes 4 confirmed misattributions listed in [`config/author.
 
 ### Most cited publications
 
-| Rank | Publication | Year | Citations |
+| Rank | Publication | Year | Current citations |
 |---:|---|---:|---:|
 | 1 | [Vertical farming systems bring new considerations for pest and disease management](https://openalex.org/W3007560514) | 2020 | 80 |
 | 2 | [Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals](https://openalex.org/W2802825342) | 2018 | 72 |
@@ -36,14 +44,17 @@ The curated view excludes 4 confirmed misattributions listed in [`config/author.
 | 10 | [Optimising Vine Weevil, Otiorhynchus sulcatus F. (Coleoptera: Curculionidae), Monitoring Tool Design](https://openalex.org/W4205464934) | 2022 | 9 |
 <!-- MONITOR:END -->
 
-## Outputs
+## Repository data
 
-- `data/metrics.csv` contains one profile-level observation per snapshot date.
-- `data/papers.csv` contains the latest publication-level citation counts.
-- `data/paper_history.csv` retains paper-level counts through time.
-- `data/snapshots/` stores complete dated API responses for reproducibility.
-- `plots/` contains figures regenerated during every update.
-- `config/author.json` records the OpenAlex author ID and transparent exclusions.
+JSON is the primary archival format:
+
+- `data/monthly/YYYY-MM.json` is the complete, self-contained record for each month. It contains raw and curated metrics, changes from the preceding month, the full publication list, paper-level citation gains, newly indexed works, corrections, exclusions and provenance.
+- `data/history.json` is a compact index of all monthly metrics and changes.
+- `data/current.json` is the latest complete monthly record.
+- `data/snapshots/YYYY-MM-DD.json` preserves the dated record used for reproducibility.
+- `reports/YYYY-MM.md` provides the corresponding human-readable monthly change report.
+
+CSV files are also retained as convenient tabular exports for R, Python or spreadsheets. The curation rules remain transparent in `config/author.json`.
 
 ## Schedule
 
@@ -55,7 +66,7 @@ GitHub Actions runs the monitor at **06:17 UTC on the first day of every month**
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt pytest
-pytest -q
+python -m pytest -q
 python monitor.py
 ```
 

@@ -644,23 +644,18 @@ def save_reports(report: str, period: str) -> None:
     (REPORTS_DIR / "latest.md").write_text(report, encoding="utf-8")
 
 
-def markdown_summary(
-    record: dict[str, Any], config: dict[str, Any], has_gain_plot: bool
-) -> str:
+def markdown_summary(record: dict[str, Any], has_gain_plot: bool) -> str:
     metrics = record["metrics"]
     changes = record["comparison"]["metrics_change"]
     previous_date = record["comparison"]["previous_snapshot_date"]
-    top = [
-        row for row in record["publications"]["all"] if as_bool(row["included_in_curated"])
-    ][:10]
     lines = [
-        f"*Last updated: {record['fetched_at'].replace('+00:00', ' UTC')}*",
+        "## Latest snapshot",
         "",
-        f"**Compared with:** {previous_date or 'baseline snapshot'}  ",
-        "**Full monthly report:** [`reports/latest.md`](reports/latest.md)  ",
-        f"**Machine-readable monthly record:** [`data/monthly/{record['period']}.json`](data/monthly/{record['period']}.json)",
+        f"Retrieved **{record['snapshot_date']}**; comparison: **{previous_date or 'baseline'}**.",
         "",
-        "| Metric | OpenAlex raw | Change | Curated | Change |",
+        f"[Monthly report](reports/latest.md) · [Monthly JSON](data/monthly/{record['period']}.json) · [Full history](data/history.json)",
+        "",
+        "| Metric | Curated | Change | OpenAlex raw | Raw change |",
         "|---|---:|---:|---:|---:|",
     ]
     for label, key in [
@@ -670,12 +665,12 @@ def markdown_summary(
         raw_change = changes["raw"][key] if changes["raw"] else None
         curated_change = changes["curated"][key] if changes["curated"] else None
         lines.append(
-            f"| {label} | {metrics['raw'][key]} | {delta(raw_change)} | "
-            f"{metrics['curated'][key]} | {delta(curated_change)} |"
+            f"| {label} | {metrics['curated'][key]} | {delta(curated_change)} | "
+            f"{metrics['raw'][key]} | {delta(raw_change)} |"
         )
 
     gains = record["publications"]["citation_gains"]
-    lines.extend(["", "### Manuscripts gaining citations", ""])
+    lines.extend(["", "### Citation changes by publication", ""])
     if previous_date and gains:
         lines.extend(paper_table(gains[:10]))
         if has_gain_plot:
@@ -683,26 +678,9 @@ def markdown_summary(
     elif previous_date:
         lines.append("No citation gains were detected among previously tracked curated works.")
     else:
-        lines.append("This is the baseline snapshot; changes will appear after the next monthly run.")
+        lines.append("This baseline establishes the starting point for the next monthly comparison.")
 
-    lines.extend(
-        [
-            "",
-            f"The curated view excludes {len(excluded_ids(config))} confirmed misattributions listed in "
-            "[`config/author.json`](config/author.json). Newly indexed works are reported separately from citation gains.",
-            "", "![Citation history](plots/citation_history.png)",
-            "", "![Most cited publications](plots/top_papers.png)",
-            "", "### Most cited publications", "",
-            "| Rank | Publication | Year | Current citations |",
-            "|---:|---|---:|---:|",
-        ]
-    )
-    for rank, row in enumerate(top, 1):
-        title = str(row["title"]).replace("|", "\\|")
-        lines.append(
-            f"| {rank} | [{title}](https://openalex.org/{row['work_id']}) | "
-            f"{row['publication_year']} | {row['citations']} |"
-        )
+    lines.extend(["", "![Monthly citation history](plots/citation_history.png)"])
     return "\n".join(lines)
 
 
@@ -734,7 +712,7 @@ def main() -> None:
     plot_top_papers(paper_rows)
     has_gain_plot = plot_monthly_gains(paper_changes)
     save_reports(change_report(record), record["period"])
-    update_readme(markdown_summary(record, config, has_gain_plot))
+    update_readme(markdown_summary(record, has_gain_plot))
     print(
         f"Updated {author.get('display_name')}: "
         f"{metrics['curated_citations']} curated citations, "

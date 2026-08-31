@@ -4,6 +4,14 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 6 1 * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/openalex-monitor.yml"
+      - "monitor.py"
+      - "requirements.txt"
+      - "tests/**"
 
 permissions:
   contents: write

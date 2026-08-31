@@ -4,6 +4,14 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 6 1 * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/openalex-monitor.yml"
+      - "monitor.py"
+      - "requirements.txt"
+      - "tests/**"
 
 permissions:
   contents: write
@@ -31,7 +39,7 @@ jobs:
         run: python -m pip install --upgrade pip && pip install -r requirements.txt pytest
 
       - name: Run tests
-        run: pytest -q
+        run: python -m pytest -q
 
       - name: Fetch OpenAlex data
         run: python monitor.py

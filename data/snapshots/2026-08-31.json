@@ -1,0 +1,1186 @@
+{
+  "fetched_at": "2026-08-31T07:53:17+00:00",
+  "author": {
+    "id": "https://openalex.org/A5060369592",
+    "orcid": "https://orcid.org/0000-0002-9576-9239",
+    "display_name": "Joe M. Roberts",
+    "works_count": 54,
+    "cited_by_count": 431,
+    "summary_stats": {
+      "2yr_mean_citedness": 0.9032258064516129,
+      "h_index": 11,
+      "i10_index": 12
+    },
+    "counts_by_year": [
+      {
+        "year": 1988,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 72
+      },
+      {
+        "year": 2019,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2020,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 123
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2022,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 34
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 78
+      },
+      {
+        "year": 2024,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2025,
+        "works_count": 11,
+        "oa_works_count": 11,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2026,
+        "works_count": 11,
+        "oa_works_count": 11,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-28T12:17:32"
+  },
+  "works": [
+    {
+      "id": "https://openalex.org/W3007560514",
+      "doi": "https://doi.org/10.1111/aab.12587",
+      "title": "Vertical farming systems bring new considerations for pest and disease management",
+      "publication_date": "2020-02-25",
+      "publication_year": 2020,
+      "type": "article",
+      "cited_by_count": 80,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 28
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4385308756",
+      "doi": "https://doi.org/10.1111/eea.13351",
+      "title": "Scents and sensibility: Best practice in insect olfactometer bioassays",
+      "publication_date": "2023-07-27",
+      "publication_year": 2023,
+      "type": "article",
+      "cited_by_count": 46,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 22
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 14
+        }
+      ],
+      "source": "Entomologia Experimentalis et Applicata",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W2802825342",
+      "doi": "https://doi.org/10.1016/j.cropro.2018.04.011",
+      "title": "Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals",
+      "publication_date": "2018-04-19",
+      "publication_year": 2018,
+      "type": "article",
+      "cited_by_count": 72,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Crop Protection",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W3016131663",
+      "doi": "https://doi.org/10.1007/s10886-020-01172-8",
+      "title": "Behavioural and Electrophysiological Responses of Female Anopheles gambiae Mosquitoes to Volatiles from a Mango Bait",
+      "publication_date": "2020-04-01",
+      "publication_year": 2020,
+      "type": "article",
+      "cited_by_count": 43,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3
+        }
+      ],
+      "source": "Journal of Chemical Ecology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W3204869631",
+      "doi": "https://doi.org/10.3389/fpls.2021.711896",
+      "title": "Effects of cis-Jasmone Treatment of Brassicas on Interactions With Myzus persicae Aphids and Their Parasitoid Diaeretiella rapae",
+      "publication_date": "2021-10-01",
+      "publication_year": 2021,
+      "type": "article",
+      "cited_by_count": 36,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 4
+        }
+      ],
+      "source": "Frontiers in Plant Science",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W2982285174",
+      "doi": "https://doi.org/10.1007/s10886-019-01108-x",
+      "title": "Electrophysiological and Behavioral Responses of Adult Vine Weevil, Otiorhynchus sulcatus (Coleoptera: Curculionidae), to Host Plant Odors",
+      "publication_date": "2019-10-01",
+      "publication_year": 2019,
+      "type": "article",
+      "cited_by_count": 17,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Journal of Chemical Ecology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4379209074",
+      "doi": "https://doi.org/10.1111/aab.12846",
+      "title": "Exploiting volatile organic compounds in crop protection: A systematic review of 1‐octen‐3‐ol and 3‐octanone",
+      "publication_date": "2023-06-03",
+      "publication_year": 2023,
+      "type": "review",
+      "cited_by_count": 15,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        }
+      ],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4388023036",
+      "doi": "https://doi.org/10.1177/17479541231201257",
+      "title": "Mental health training for high school coaches and athletic directors: Community-based participatory research to Coach Beyond",
+      "publication_date": "2023-10-30",
+      "publication_year": 2023,
+      "type": "article",
+      "cited_by_count": 13,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        }
+      ],
+      "source": "International Journal of Sports Science & Coaching",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4220832207",
+      "doi": "https://doi.org/10.1146/annurev-ento-071221-060822",
+      "title": "Vine Weevil,Otiorhynchus sulcatus(Coleoptera: Curculionidae), Management: Current State and Future Perspectives",
+      "publication_date": "2022-01-07",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 12,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Annual Review of Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4205464934",
+      "doi": "https://doi.org/10.3390/insects13010080",
+      "title": "Optimising Vine Weevil, Otiorhynchus sulcatus F. (Coleoptera: Curculionidae), Monitoring Tool Design",
+      "publication_date": "2022-01-12",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 9,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Insects",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4390906255",
+      "doi": "https://doi.org/10.1111/1744-7917.13316",
+      "title": "The clip cage conundrum: Assessing the interplay of confinement method and aphid genotype in fitness studies",
+      "publication_date": "2024-01-16",
+      "publication_year": 2024,
+      "type": "article",
+      "cited_by_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        }
+      ],
+      "source": "Insect Science",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4280538107",
+      "doi": "https://doi.org/10.1111/aab.12776",
+      "title": "Evaluation of resistance to black bean aphid (Aphis fabae) in selected varieties and mutant genotypes of common bean (Phaseolus vulgaris)",
+      "publication_date": "2022-05-12",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 6,
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4401630186",
+      "doi": "https://doi.org/10.1016/j.cropro.2024.106904",
+      "title": "Temperature and time of season are the predominant drivers of cabbage stem flea beetle, Psylliodes chrysocephala, arrival at oilseed rape crops",
+      "publication_date": "2024-08-16",
+      "publication_year": 2024,
+      "type": "article",
+      "cited_by_count": 4,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Crop Protection",
+      "updated_date": "2026-08-29T07:29:34.045763"
+    },
+    {
+      "id": "https://openalex.org/W4410038418",
+      "doi": "https://doi.org/10.3390/insects16050477",
+      "title": "Effects of Confinement and Wheat Variety on the Performance of Two Aphid Species",
+      "publication_date": "2025-05-01",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Insects",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4411041366",
+      "doi": "https://doi.org/10.1007/s12011-025-04668-0",
+      "title": "A Re-evaluation of the Optimal Liver Copper Concentrations for Health, Performance and Fertility of Replacement Holstein–Friesian Heifers",
+      "publication_date": "2025-06-04",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Biological Trace Element Research",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4412929723",
+      "doi": "https://doi.org/10.1016/j.atech.2025.101244",
+      "title": "Novel nocturnal insect pest monitoring for sustainable crop protection using ensemble augmented deep learning classification",
+      "publication_date": "2025-08-04",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Smart Agricultural Technology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W2956372050",
+      "doi": "https://doi.org/10.1002/ps.5545",
+      "title": "Catch me if you can: the influence of refuge / trap design, previous feeding experience, and semiochemical lures on vine weevil (Coleoptera: Curculionidae) monitoring success",
+      "publication_date": "2019-07-08",
+      "publication_year": 2019,
+      "type": "article",
+      "cited_by_count": 11,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Pest Management Science",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W2996775031",
+      "doi": "https://doi.org/10.1007/s11032-019-1089-x",
+      "title": "Quantitative trait loci (QTLs) linked with root growth in lettuce (Lactuca sativa) seedlings",
+      "publication_date": "2019-12-26",
+      "publication_year": 2019,
+      "type": "article",
+      "cited_by_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Molecular Breeding",
+      "updated_date": "2026-08-29T07:29:34.045763"
+    },
+    {
+      "id": "https://openalex.org/W4281839811",
+      "doi": "https://doi.org/10.1016/j.cropro.2022.106030",
+      "title": "Induced mutagenesis: An underutilised component in the integrated management of aphid pests in sub-Saharan Africa",
+      "publication_date": "2022-05-31",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        }
+      ],
+      "source": "Crop Protection",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4384277394",
+      "doi": "https://doi.org/10.1002/ps.7665",
+      "title": "Decoding attraction: Improving vine weevil monitoring by exploiting key sensory cues",
+      "publication_date": "2023-07-13",
+      "publication_year": 2023,
+      "type": "article",
+      "cited_by_count": 4,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Pest Management Science",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4411730566",
+      "doi": "https://doi.org/10.1016/j.jtbi.2025.112185",
+      "title": "A process-based life cycle model of the cabbage stem flea beetle on winter oilseed rape: Effects of temperature",
+      "publication_date": "2025-06-27",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Journal of Theoretical Biology",
+      "updated_date": "2026-08-29T07:29:34.045763"
+    },
+    {
+      "id": "https://openalex.org/W4414437146",
+      "doi": "https://doi.org/10.1111/jen.70021",
+      "title": "An Apple a Day Does Not Keep the Weevils Away: Enhancing Vine Weevil Monitoring With Fruit‐Based Volatiles",
+      "publication_date": "2025-09-23",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Journal of Applied Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4416087417",
+      "doi": "https://doi.org/10.1080/09583157.2025.2586218",
+      "title": "Question of compatibility: combining botanical garlic extract and entomopathogenic nematode as integrated biological control for vine weevil",
+      "publication_date": "2025-11-10",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Biocontrol Science and Technology",
+      "updated_date": "2026-08-22T07:34:49.880490"
+    },
+    {
+      "id": "https://openalex.org/W7123676068",
+      "doi": "https://doi.org/10.1002/ps.70518",
+      "title": "Effects of bioinsecticide exposure route on aphids and their natural enemies in oilseed rape",
+      "publication_date": "2026-01-13",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Pest Management Science",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W2319794099",
+      "doi": "https://doi.org/10.1093/jmedent/33.1.177",
+      "title": "Attraction and Trapping of Aedes aegypti (Diptera: Culicidae) with Host Odors in the Laboratory",
+      "publication_date": "1996-01-01",
+      "publication_year": 1996,
+      "type": "article",
+      "cited_by_count": 17,
+      "counts_by_year": [
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Journal of Medical Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W2004956959",
+      "doi": "https://doi.org/10.1016/0261-2194(88)90007-5",
+      "title": "Cowpea seed treatment with carbosulfan: potential for control of seedling pests",
+      "publication_date": "1988-12-01",
+      "publication_year": 1988,
+      "type": "article",
+      "cited_by_count": 10,
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Crop Protection",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4294891858",
+      "doi": "https://doi.org/10.1007/s11829-022-09919-8",
+      "title": "Gamma irradiation as a tool to produce cowpea (Vigna unguiculate (L.) Walp.) genotypes resistant to aphid pests",
+      "publication_date": "2022-09-07",
+      "publication_year": 2022,
+      "type": "article",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Arthropod-Plant Interactions",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4401441452",
+      "doi": "https://doi.org/10.1093/jee/toae175",
+      "title": "‘The Garlic Gambit’: an alternative strategy for controlling vine weevil (Otiorhynchus sulcatus F.; Coleoptera: Curculionidae)",
+      "publication_date": "2024-08-09",
+      "publication_year": 2024,
+      "type": "article",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Journal of Economic Entomology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4402006336",
+      "doi": "https://doi.org/10.1111/aab.12942",
+      "title": "Cover Image",
+      "publication_date": "2024-08-29",
+      "publication_year": 2024,
+      "type": "paratext",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        }
+      ],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4402006542",
+      "doi": "https://doi.org/10.1111/aab.12936",
+      "title": "Special issue on entomology: A tribute to Prof. Simon R. Leather",
+      "publication_date": "2024-08-29",
+      "publication_year": 2024,
+      "type": "editorial",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4404351422",
+      "doi": "https://doi.org/10.2139/ssrn.5021348",
+      "title": "A Process-Based Life Cycle of the Cabbage Stem Flea Beetle on Winter Oilseed Rape: Effects of Temperature",
+      "publication_date": "2024-01-01",
+      "publication_year": 2024,
+      "type": "preprint",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "SSRN Electronic Journal",
+      "updated_date": "2026-07-14T23:27:15.235271"
+    },
+    {
+      "id": "https://openalex.org/W4408497597",
+      "doi": "https://doi.org/10.20944/preprints202503.1029.v1",
+      "title": "Effects of Confinement and Wheat Variety on the Performance of Two Aphid Species",
+      "publication_date": "2025-03-14",
+      "publication_year": 2025,
+      "type": "preprint",
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "source": "Preprints.org",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W2978978878",
+      "doi": "https://doi.org/10.1101/789172",
+      "title": "Feeding status influences adult vine weevil (coleoptera: curculionidae) behaviour to conspecific volatiles",
+      "publication_date": "2019-10-01",
+      "publication_year": 2019,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "updated_date": "2026-08-08T07:41:36.138363"
+    },
+    {
+      "id": "https://openalex.org/W3133540425",
+      "doi": "https://doi.org/10.22004/ag.econ.308162",
+      "title": "Feasibility of Autonomous Equipment for Biopesticide Application",
+      "publication_date": "2020-01-01",
+      "publication_year": 2020,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "RePEc: Research Papers in Economics",
+      "updated_date": "2026-08-26T07:47:46.906454"
+    },
+    {
+      "id": "https://openalex.org/W3164723980",
+      "doi": null,
+      "title": "Feasibility of Autonomous Equipment for Biopesticide Application",
+      "publication_date": "2020-01-01",
+      "publication_year": 2020,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "RePEc: Research Papers in Economics",
+      "updated_date": "2026-08-26T07:47:46.906454"
+    },
+    {
+      "id": "https://openalex.org/W3187789302",
+      "doi": null,
+      "title": "Vine weevil, Otiorhynchus sulcatus (Coleoptera: Curculionidae), management: current state and future perspectives",
+      "publication_date": "2021-04-26",
+      "publication_year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Harper Adams University Repository (GuildHE Research)",
+      "updated_date": "2026-06-11T09:08:48.828518"
+    },
+    {
+      "id": "https://openalex.org/W3198194505",
+      "doi": "https://doi.org/10.1564/v32_jun_05",
+      "title": "Continuing Entomological Research During the Covid-19 Pandemic",
+      "publication_date": "2021-06-01",
+      "publication_year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Outlooks on Pest Management",
+      "updated_date": "2026-06-11T09:08:48.828518"
+    },
+    {
+      "id": "https://openalex.org/W4399109698",
+      "doi": "https://doi.org/10.2139/ssrn.4844676",
+      "title": "Temperature and Time of Season are the Predominant Drivers of Cabbage Stem Flea Beetle, Psylliodes Chrysocephala, Arrival at Oilseed Rape Crops",
+      "publication_date": "2024-01-01",
+      "publication_year": 2024,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "SSRN Electronic Journal",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4402994917",
+      "doi": "https://doi.org/10.1111/een.13388",
+      "title": "The influence of genetic variation on pre‐oviposition processes for host‐parasitoid co‐evolution",
+      "publication_date": "2024-09-30",
+      "publication_year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Ecological Entomology",
+      "updated_date": "2026-08-28T12:50:07.497085"
+    },
+    {
+      "id": "https://openalex.org/W4404766127",
+      "doi": "https://doi.org/10.1007/s11829-024-10116-y",
+      "title": "Can silicon complement mutation-derived resistance to cowpea aphid?",
+      "publication_date": "2024-11-27",
+      "publication_year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Arthropod-Plant Interactions",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4409424642",
+      "doi": "https://doi.org/10.61733/jconch/4546",
+      "title": "Using radio frequency identification technology to track the movement of slugs within domestic garden habitats",
+      "publication_date": "2025-01-01",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Journal of conchology",
+      "updated_date": "2026-08-22T07:34:49.880490"
+    },
+    {
+      "id": "https://openalex.org/W4409759391",
+      "doi": "https://doi.org/10.21203/rs.3.rs-6360858/v1",
+      "title": "A re-evaluation of the optimal liver copper concentrations for health, performance and fertility of replacement Holstein-Friesian heifers",
+      "publication_date": "2025-04-24",
+      "publication_year": 2025,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Research Square",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W4411090753",
+      "doi": "https://doi.org/10.1111/mve.12814",
+      "title": "Extended time to maturity in Anopheles coluzzii : Implications of late egg hatch for vector control and transgene fitness",
+      "publication_date": "2025-06-06",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Medical and Veterinary Entomology",
+      "updated_date": "2026-08-23T07:36:19.812096"
+    },
+    {
+      "id": "https://openalex.org/W7116910377",
+      "doi": "https://doi.org/10.1002/ps.70461",
+      "title": "How effective are entomopathogenic nematodes for vine weevil (Coleoptera: Curculionidae) biological control? A meta‐analysis",
+      "publication_date": "2025-12-23",
+      "publication_year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Pest Management Science",
+      "updated_date": "2026-08-23T07:36:19.812096"
+    },
+    {
+      "id": "https://openalex.org/W7125750223",
+      "doi": "https://doi.org/10.2139/ssrn.6086739",
+      "title": "ASSESSMENT OF INTERACTIONS BETWEEN PYRETHRUM EXTRACT AND OLEIC ACID AGAINST APHIS FABAE SCOPOLI (HEMIPTERA: APHIDIDAE) THROUGH A MODIFIED CHECKERBOARD ASSAY APPROACH",
+      "publication_date": "2026-01-01",
+      "publication_year": 2026,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "SSRN Electronic Journal",
+      "updated_date": "2026-08-04T08:18:43.703281"
+    },
+    {
+      "id": "https://openalex.org/W7140234598",
+      "doi": "https://doi.org/10.1111/afe.70043",
+      "title": "Refuge by day, forage by night: Diel activity of vine weevil as characterised by smart monitoring",
+      "publication_date": "2026-03-24",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Agricultural and Forest Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7140557548",
+      "doi": "https://doi.org/10.1111/afe.70047",
+      "title": "Evaluating the efficacy of tagging adhesives for insect tracking",
+      "publication_date": "2026-03-25",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Agricultural and Forest Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7155225983",
+      "doi": "https://doi.org/10.21203/rs.3.rs-9280252/v1",
+      "title": "How much copper do calves need? Absorption and hepatic storage in artificially reared milk- fed Holstein–Friesian calves",
+      "publication_date": "2026-04-22",
+      "publication_year": 2026,
+      "type": "preprint",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Research Square",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7166863173",
+      "doi": "https://doi.org/10.1007/s12011-026-05190-7",
+      "title": "How much Copper Do Calves Need? Retention and Hepatic Storage in Artificially Reared Milk-Fed Holstein–Friesian Calves",
+      "publication_date": "2026-07-01",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Biological Trace Element Research",
+      "updated_date": "2026-08-25T07:29:55.448023"
+    },
+    {
+      "id": "https://openalex.org/W7172267668",
+      "doi": "https://doi.org/10.1111/afe.70077",
+      "title": "Reconsidering the importance of M etopolophium dirhodum ( W alker) ( H emiptera: A phididae) as a crop pest",
+      "publication_date": "2026-08-03",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Agricultural and Forest Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7202036786",
+      "doi": "https://doi.org/10.1111/aab.70152",
+      "title": "Dispersal responses of cereal aphids to wheat cultivar and planting configuration",
+      "publication_date": "2026-08-09",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7202277599",
+      "doi": "https://doi.org/10.1111/afe.70078",
+      "title": "Behavioural responses of peach potato aphid, M yzus persicae S ulzer ( H emiptera: A phididae), to entomopathogenic fungi infected conspecifics",
+      "publication_date": "2026-08-12",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Agricultural and Forest Entomology",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7203459156",
+      "doi": "https://doi.org/10.1016/j.tplants.2026.07.011",
+      "title": "A new sustainability paradigm beyond the organic brand",
+      "publication_date": "2026-08-01",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Trends in Plant Science",
+      "updated_date": "2026-08-21T09:56:20.448147"
+    },
+    {
+      "id": "https://openalex.org/W7204111607",
+      "doi": "https://doi.org/10.1111/aab.70155",
+      "title": "Industry perceptions of biological control in food manufacturing environments: A qualitative analysis of barriers and opportunities",
+      "publication_date": "2026-08-24",
+      "publication_year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "source": "Annals of Applied Biology",
+      "updated_date": "2026-08-26T07:47:46.906454"
+    }
+  ],
+  "monitor": {
+    "metrics": {
+      "date": "2026-08-31",
+      "fetched_at": "2026-08-31T07:53:17+00:00",
+      "raw_work_count": 54,
+      "raw_citations": 431,
+      "raw_h_index": 11,
+      "raw_i10_index": 12,
+      "curated_work_count": 50,
+      "curated_citations": 386,
+      "curated_h_index": 9,
+      "curated_i10_index": 9
+    },
+    "excluded_works": [
+      {
+        "id": "W2004956959",
+        "title": "Cowpea seed treatment with carbosulfan: potential for control of seedling pests",
+        "reason": "Published in 1988 and attributed to J.M.F. Roberts; not Joe M. Roberts."
+      },
+      {
+        "id": "W2319794099",
+        "title": "Attraction and Trapping of Aedes aegypti with Host Odors in the Laboratory",
+        "reason": "Published in 1996; predates Joe M. Roberts's publication record."
+      },
+      {
+        "id": "W2996775031",
+        "title": "Quantitative trait loci linked with root growth in lettuce seedlings",
+        "reason": "Different J. Roberts; not part of the confirmed publication list."
+      },
+      {
+        "id": "W4388023036",
+        "title": "Mental health training for high school coaches and athletic directors",
+        "reason": "Different Joe Roberts based in the United States."
+      }
+    ]
+  }
+}

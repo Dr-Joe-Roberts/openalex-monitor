@@ -1,0 +1,26 @@
+{
+  "author_id": "A5060369592",
+  "profile_url": "https://openalex.org/A5060369592",
+  "excluded_works": [
+    {
+      "id": "W2004956959",
+      "title": "Cowpea seed treatment with carbosulfan: potential for control of seedling pests",
+      "reason": "Published in 1988 and attributed to J.M.F. Roberts; not Joe M. Roberts."
+    },
+    {
+      "id": "W2319794099",
+      "title": "Attraction and Trapping of Aedes aegypti with Host Odors in the Laboratory",
+      "reason": "Published in 1996; predates Joe M. Roberts's publication record."
+    },
+    {
+      "id": "W2996775031",
+      "title": "Quantitative trait loci linked with root growth in lettuce seedlings",
+      "reason": "Different J. Roberts; not part of the confirmed publication list."
+    },
+    {
+      "id": "W4388023036",
+      "title": "Mental health training for high school coaches and athletic directors",
+      "reason": "Different Joe Roberts based in the United States."
+    }
+  ]
+}

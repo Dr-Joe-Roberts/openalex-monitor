@@ -1,8 +1,8 @@
-# OpenAlex Monitor
+# OpenAlex Monthly Monitor
 
 [![Update OpenAlex metrics](https://github.com/Dr-Joe-Roberts/openalex-monitor/actions/workflows/openalex-monitor.yml/badge.svg)](https://github.com/Dr-Joe-Roberts/openalex-monitor/actions/workflows/openalex-monitor.yml)
 
-Reproducible monthly monitoring of [Joe M. Roberts's OpenAlex profile](https://openalex.org/A5060369592). The project records both the unmodified OpenAlex metrics and a curated view that removes confirmed author-disambiguation errors.
+Tracks month-to-month changes in [Joe M. Roberts's OpenAlex record](https://openalex.org/A5060369592), including profile metrics, citation gains by publication and indexing changes.
 
 <!-- MONITOR:START -->
 ## Latest snapshot
@@ -25,23 +25,24 @@ This baseline establishes the starting point for the next monthly comparison.
 ![Monthly citation history](plots/citation_history.png)
 <!-- MONITOR:END -->
 
-## Repository data
+## Archive
 
-JSON is the primary archival format:
+| Path | Contents |
+|---|---|
+| [`data/monthly/`](data/monthly) | Complete self-contained JSON record for each month |
+| [`data/history.json`](data/history.json) | Compact longitudinal index of metrics and changes |
+| [`reports/`](reports) | Human-readable monthly change reports |
+| [`data/current.json`](data/current.json) | Latest complete record |
+| [`data/snapshots/`](data/snapshots) | Dated reproducibility snapshots |
 
-- `data/monthly/YYYY-MM.json` is the complete, self-contained record for each month. It contains raw and curated metrics, changes from the preceding month, the full publication list, paper-level citation gains, newly indexed works, corrections, exclusions and provenance.
-- `data/history.json` is a compact index of all monthly metrics and changes.
-- `data/current.json` is the latest complete monthly record.
-- `data/snapshots/YYYY-MM-DD.json` preserves the dated record used for reproducibility.
-- `reports/YYYY-MM.md` provides the corresponding human-readable monthly change report.
+JSON is the primary archive; CSV files are retained for convenient analysis in R, Python and spreadsheets. See the [data guide](data/README.md) and [JSON schema](data/schema.json).
 
-CSV files are also retained as convenient tabular exports for R, Python or spreadsheets. The curation rules remain transparent in `config/author.json`.
+## Automation
 
-## Schedule
+The workflow runs at **06:17 UTC on the first day of every month** and can also be started from the [Actions page](https://github.com/Dr-Joe-Roberts/openalex-monitor/actions). Changed data, reports and figures are committed directly to `main`.
 
-GitHub Actions runs the monitor at **06:17 UTC on the first day of every month**. It can also be run manually from the Actions tab. When the API returns changed data, the workflow commits the new snapshot and regenerated outputs to `main`.
-
-## Local use
+<details>
+<summary>Run locally</summary>
 
 ```bash
 python -m venv .venv
@@ -51,12 +52,10 @@ python -m pytest -q
 python monitor.py
 ```
 
-The OpenAlex API does not require a login for this low-volume workflow. If an API key is added later, expose it through the optional `OPENALEX_API_KEY` environment variable; never commit it to the repository.
+</details>
 
-## Interpretation
+## Method
 
-Citation totals are specific to OpenAlex and should be reported with the database name and retrieval date. The curated metrics are calculated locally from the works retained in `config/author.json`; they do not change the public OpenAlex record.
+Raw metrics reproduce OpenAlex. Curated metrics exclude confirmed author-disambiguation errors listed in [`config/author.json`](config/author.json). Citation gains are calculated only for works present in consecutive monthly records; citations attached to newly indexed works are reported separately.
 
-## Licence
-
-Code is released under the MIT Licence. OpenAlex data are provided under their applicable terms and licences.
+Code is released under the MIT Licence. OpenAlex data remain subject to their applicable terms and licences.

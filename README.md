@@ -5,7 +5,7 @@
 Reproducible monthly monitoring of [Joe M. Roberts's OpenAlex profile](https://openalex.org/A5060369592). The project records both the unmodified OpenAlex metrics and a curated view that removes confirmed author-disambiguation errors.
 
 <!-- MONITOR:START -->
-*Last updated: 2026-08-31T07:53:17 UTC*
+*Last updated: 2026-08-31T08:09:55 UTC*
 
 | Metric | OpenAlex raw | Curated |
 |---|---:|---:|

@@ -1,7 +1,7 @@
 # OpenAlex change report — 2026-08
 
 **Profile:** Joe M. Roberts  
-**Retrieved:** 2026-08-31T08:52:00 UTC
+**Retrieved:** 2026-08-31T09:12:45 UTC
 
 This is the baseline snapshot. Month-to-month changes will be calculated from the next scheduled run.
 

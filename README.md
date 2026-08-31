@@ -5,43 +5,24 @@
 Reproducible monthly monitoring of [Joe M. Roberts's OpenAlex profile](https://openalex.org/A5060369592). The project records both the unmodified OpenAlex metrics and a curated view that removes confirmed author-disambiguation errors.
 
 <!-- MONITOR:START -->
-*Last updated: 2026-08-31T08:52:00 UTC*
+## Latest snapshot
 
-**Compared with:** baseline snapshot  
-**Full monthly report:** [`reports/latest.md`](reports/latest.md)  
-**Machine-readable monthly record:** [`data/monthly/2026-08.json`](data/monthly/2026-08.json)
+Retrieved **2026-08-31**; comparison: **baseline**.
 
-| Metric | OpenAlex raw | Change | Curated | Change |
+[Monthly report](reports/latest.md) · [Monthly JSON](data/monthly/2026-08.json) · [Full history](data/history.json)
+
+| Metric | Curated | Change | OpenAlex raw | Raw change |
 |---|---:|---:|---:|---:|
-| Works | 54 | — | 50 | — |
-| Citations | 431 | — | 386 | — |
-| h-index | 11 | — | 9 | — |
-| i10-index | 12 | — | 9 | — |
+| Works | 50 | — | 54 | — |
+| Citations | 386 | — | 431 | — |
+| h-index | 9 | — | 11 | — |
+| i10-index | 9 | — | 12 | — |
 
-### Manuscripts gaining citations
+### Citation changes by publication
 
-This is the baseline snapshot; changes will appear after the next monthly run.
+This baseline establishes the starting point for the next monthly comparison.
 
-The curated view excludes 4 confirmed misattributions listed in [`config/author.json`](config/author.json). Newly indexed works are reported separately from citation gains.
-
-![Citation history](plots/citation_history.png)
-
-![Most cited publications](plots/top_papers.png)
-
-### Most cited publications
-
-| Rank | Publication | Year | Current citations |
-|---:|---|---:|---:|
-| 1 | [Vertical farming systems bring new considerations for pest and disease management](https://openalex.org/W3007560514) | 2020 | 80 |
-| 2 | [Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals](https://openalex.org/W2802825342) | 2018 | 72 |
-| 3 | [Scents and sensibility: Best practice in insect olfactometer bioassays](https://openalex.org/W4385308756) | 2023 | 46 |
-| 4 | [Behavioural and Electrophysiological Responses of Female Anopheles gambiae Mosquitoes to Volatiles from a Mango Bait](https://openalex.org/W3016131663) | 2020 | 43 |
-| 5 | [Effects of cis-Jasmone Treatment of Brassicas on Interactions With Myzus persicae Aphids and Their Parasitoid Diaeretiella rapae](https://openalex.org/W3204869631) | 2021 | 36 |
-| 6 | [Electrophysiological and Behavioral Responses of Adult Vine Weevil, Otiorhynchus sulcatus (Coleoptera: Curculionidae), to Host Plant Odors](https://openalex.org/W2982285174) | 2019 | 17 |
-| 7 | [Exploiting volatile organic compounds in crop protection: A systematic review of 1‐octen‐3‐ol and 3‐octanone](https://openalex.org/W4379209074) | 2023 | 15 |
-| 8 | [Vine Weevil,Otiorhynchus sulcatus(Coleoptera: Curculionidae), Management: Current State and Future Perspectives](https://openalex.org/W4220832207) | 2022 | 12 |
-| 9 | [Catch me if you can: the influence of refuge / trap design, previous feeding experience, and semiochemical lures on vine weevil (Coleoptera: Curculionidae) monitoring success](https://openalex.org/W2956372050) | 2019 | 11 |
-| 10 | [Optimising Vine Weevil, Otiorhynchus sulcatus F. (Coleoptera: Curculionidae), Monitoring Tool Design](https://openalex.org/W4205464934) | 2022 | 9 |
+![Monthly citation history](plots/citation_history.png)
 <!-- MONITOR:END -->
 
 ## Repository data

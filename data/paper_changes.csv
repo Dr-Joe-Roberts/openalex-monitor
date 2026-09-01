@@ -1,1 +1,5 @@
 date,previous_date,work_id,doi,title,publication_year,change_type,previous_citations,current_citations,citation_change
+2026-09-01,2026-08-31,W3133540425,https://doi.org/10.22004/ag.econ.308162,Feasibility of Autonomous Equipment for Biopesticide Application,2020,removed_from_curated,0,,
+2026-09-01,2026-08-31,W4402006336,https://doi.org/10.1111/aab.12942,Cover Image,2024,removed_from_curated,2,,
+2026-09-01,2026-08-31,W4409759391,https://doi.org/10.21203/rs.3.rs-6360858/v1,"A re-evaluation of the optimal liver copper concentrations for health, performance and fertility of replacement Holstein-Friesian heifers",2025,removed_from_curated,0,,
+2026-09-01,2026-08-31,W7155225983,https://doi.org/10.21203/rs.3.rs-9280252/v1,How much copper do calves need? Absorption and hepatic storage in artificially reared milk- fed Holstein–Friesian calves,2026,removed_from_curated,0,,

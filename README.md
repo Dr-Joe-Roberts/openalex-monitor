@@ -7,20 +7,20 @@ Tracks month-to-month changes in [Joe M. Roberts's OpenAlex record](https://open
 <!-- MONITOR:START -->
 ## Latest snapshot
 
-Retrieved **2026-08-31**; comparison: **baseline**.
+Retrieved **2026-09-01**; comparison: **2026-08-31**.
 
-[Monthly report](reports/latest.md) · [Monthly JSON](data/monthly/2026-08.json) · [Full history](data/history.json)
+[Monthly report](reports/latest.md) · [Monthly JSON](data/monthly/2026-09.json) · [Full history](data/history.json)
 
 | Metric | Curated | Change | OpenAlex raw | Raw change |
 |---|---:|---:|---:|---:|
-| Works | 50 | — | 54 | — |
-| Citations | 386 | — | 431 | — |
-| h-index | 9 | — | 11 | — |
-| i10-index | 9 | — | 12 | — |
+| Works | 46 | -4 | 54 | +0 |
+| Citations | 384 | -2 | 431 | +0 |
+| h-index | 9 | +0 | 11 | +0 |
+| i10-index | 9 | +0 | 12 | +0 |
 
 ### Citation changes by publication
 
-This baseline establishes the starting point for the next monthly comparison.
+No citation gains were detected among previously tracked curated works.
 
 ![Monthly citation history](plots/citation_history.png)
 <!-- MONITOR:END -->

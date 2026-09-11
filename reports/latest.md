@@ -1,22 +1,27 @@
 # OpenAlex change report — 2026-09
 
 **Profile:** Joe M. Roberts  
-**Retrieved:** 2026-09-01T11:36:31 UTC
+**Retrieved:** 2026-09-11T22:13:28 UTC
 
-**Comparison:** 2026-08-31 to 2026-09-01
+**Comparison:** 2026-08-31 to 2026-09-11
 
 ## Metric changes
 
 | Metric | OpenAlex raw | Change | Curated | Change |
 |---|---:|---:|---:|---:|
-| Works | 54 | +0 | 46 | -4 |
-| Citations | 431 | +0 | 384 | -2 |
-| h-index | 11 | +0 | 9 | +0 |
-| i10-index | 12 | +0 | 9 | +0 |
+| Works | 46 | -8 | 46 | -4 |
+| Citations | 389 | -42 | 389 | +3 |
+| h-index | 9 | -2 | 9 | +0 |
+| i10-index | 9 | -3 | 9 | +0 |
 
 ## Manuscripts gaining citations
 
-No citation gains were detected among previously tracked curated works.
+| Manuscript | Year | Previous | Current | Change |
+|---|---:|---:|---:|---:|
+| [Scents and sensibility: Best practice in insect olfactometer bioassays](https://openalex.org/W4385308756) | 2023 | 46 | 48 | +2 |
+| [Extended time to maturity in Anopheles coluzzii : Implications of late egg hatch for vector control and transgene fitness](https://openalex.org/W4411090753) | 2025 | 0 | 1 | +1 |
+| [Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals](https://openalex.org/W2802825342) | 2018 | 72 | 73 | +1 |
+| [Vine Weevil,Otiorhynchus sulcatus(Coleoptera: Curculionidae), Management: Current State and Future Perspectives](https://openalex.org/W4220832207) | 2022 | 12 | 13 | +1 |
 
 ## Newly indexed curated works
 

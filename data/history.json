@@ -32,19 +32,19 @@
     },
     {
       "period": "2026-09",
-      "snapshot_date": "2026-09-11",
-      "fetched_at": "2026-09-11T22:13:28+00:00",
+      "snapshot_date": "2026-09-26",
+      "fetched_at": "2026-09-26T10:14:29+00:00",
       "previous_snapshot_date": "2026-08-31",
       "metrics": {
         "raw": {
           "works": 46,
-          "citations": 389,
+          "citations": 397,
           "h_index": 9,
           "i10_index": 9
         },
         "curated": {
-          "works": 46,
-          "citations": 389,
+          "works": 45,
+          "citations": 399,
           "h_index": 9,
           "i10_index": 9
         }
@@ -52,18 +52,18 @@
       "metrics_change": {
         "raw": {
           "works": -8,
-          "citations": -42,
+          "citations": -34,
           "h_index": -2,
           "i10_index": -3
         },
         "curated": {
-          "works": -4,
-          "citations": 3,
+          "works": -5,
+          "citations": 13,
           "h_index": 0,
           "i10_index": 0
         }
       },
-      "citation_gaining_publications": 4,
+      "citation_gaining_publications": 8,
       "newly_indexed_publications": 0,
       "data_file": "monthly/2026-09.json",
       "report_file": "../reports/2026-09.md"

@@ -11,3 +11,16 @@ date,previous_date,work_id,doi,title,publication_year,change_type,previous_citat
 2026-09-11,2026-08-31,W4409759391,https://doi.org/10.21203/rs.3.rs-6360858/v1,"A re-evaluation of the optimal liver copper concentrations for health, performance and fertility of replacement Holstein-Friesian heifers",2025,removed_from_curated,0,,
 2026-09-11,2026-08-31,W4411090753,https://doi.org/10.1111/mve.12814,Extended time to maturity in Anopheles coluzzii : Implications of late egg hatch for vector control and transgene fitness,2025,newly_cited,0,1,1
 2026-09-11,2026-08-31,W7155225983,https://doi.org/10.21203/rs.3.rs-9280252/v1,How much copper do calves need? Absorption and hepatic storage in artificially reared milk- fed Holstein–Friesian calves,2026,removed_from_curated,0,,
+2026-09-26,2026-08-31,W2802825342,https://doi.org/10.1016/j.cropro.2018.04.011,Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals,2018,citation_gain,72,76,4
+2026-09-26,2026-08-31,W3007560514,https://doi.org/10.1111/aab.12587,Vertical farming systems bring new considerations for pest and disease management,2020,citation_gain,80,81,1
+2026-09-26,2026-08-31,W3133540425,https://doi.org/10.22004/ag.econ.308162,Feasibility of Autonomous Equipment for Biopesticide Application,2020,removed_from_curated,0,,
+2026-09-26,2026-08-31,W3164723980,,Feasibility of Autonomous Equipment for Biopesticide Application,2020,removed_from_curated,0,,
+2026-09-26,2026-08-31,W3204869631,https://doi.org/10.3389/fpls.2021.711896,Effects of cis-Jasmone Treatment of Brassicas on Interactions With Myzus persicae Aphids and Their Parasitoid Diaeretiella rapae,2021,citation_gain,36,38,2
+2026-09-26,2026-08-31,W4220832207,https://doi.org/10.1146/annurev-ento-071221-060822,"Vine Weevil,Otiorhynchus sulcatus(Coleoptera: Curculionidae), Management: Current State and Future Perspectives",2022,citation_gain,12,14,2
+2026-09-26,2026-08-31,W4385308756,https://doi.org/10.1111/eea.13351,Scents and sensibility: Best practice in insect olfactometer bioassays,2023,citation_gain,46,49,3
+2026-09-26,2026-08-31,W4390906255,https://doi.org/10.1111/1744-7917.13316,The clip cage conundrum: Assessing the interplay of confinement method and aphid genotype in fitness studies,2024,citation_gain,7,8,1
+2026-09-26,2026-08-31,W4401441452,https://doi.org/10.1093/jee/toae175,‘The Garlic Gambit’: an alternative strategy for controlling vine weevil (Otiorhynchus sulcatus F.; Coleoptera: Curculionidae),2024,citation_gain,1,2,1
+2026-09-26,2026-08-31,W4402006336,https://doi.org/10.1111/aab.12942,Cover Image,2024,removed_from_curated,2,,
+2026-09-26,2026-08-31,W4409759391,https://doi.org/10.21203/rs.3.rs-6360858/v1,"A re-evaluation of the optimal liver copper concentrations for health, performance and fertility of replacement Holstein-Friesian heifers",2025,removed_from_curated,0,,
+2026-09-26,2026-08-31,W4411090753,https://doi.org/10.1111/mve.12814,Extended time to maturity in Anopheles coluzzii : Implications of late egg hatch for vector control and transgene fitness,2025,newly_cited,0,1,1
+2026-09-26,2026-08-31,W7155225983,https://doi.org/10.21203/rs.3.rs-9280252/v1,How much copper do calves need? Absorption and hepatic storage in artificially reared milk- fed Holstein–Friesian calves,2026,removed_from_curated,0,,

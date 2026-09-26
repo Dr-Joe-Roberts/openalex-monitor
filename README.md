@@ -7,14 +7,14 @@ Tracks month-to-month changes in [Joe M. Roberts's OpenAlex record](https://open
 <!-- MONITOR:START -->
 ## Latest snapshot
 
-Retrieved **2026-09-11**; comparison: **2026-08-31**.
+Retrieved **2026-09-26**; comparison: **2026-08-31**.
 
 [Monthly report](reports/latest.md) · [Monthly JSON](data/monthly/2026-09.json) · [Full history](data/history.json)
 
 | Metric | Curated | Change | OpenAlex raw | Raw change |
 |---|---:|---:|---:|---:|
-| Works | 46 | -4 | 46 | -8 |
-| Citations | 389 | +3 | 389 | -42 |
+| Works | 45 | -5 | 46 | -8 |
+| Citations | 399 | +13 | 397 | -34 |
 | h-index | 9 | +0 | 9 | -2 |
 | i10-index | 9 | +0 | 9 | -3 |
 
@@ -22,10 +22,14 @@ Retrieved **2026-09-11**; comparison: **2026-08-31**.
 
 | Manuscript | Year | Previous | Current | Change |
 |---|---:|---:|---:|---:|
-| [Scents and sensibility: Best practice in insect olfactometer bioassays](https://openalex.org/W4385308756) | 2023 | 46 | 48 | +2 |
+| [Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals](https://openalex.org/W2802825342) | 2018 | 72 | 76 | +4 |
+| [Scents and sensibility: Best practice in insect olfactometer bioassays](https://openalex.org/W4385308756) | 2023 | 46 | 49 | +3 |
+| [Effects of cis-Jasmone Treatment of Brassicas on Interactions With Myzus persicae Aphids and Their Parasitoid Diaeretiella rapae](https://openalex.org/W3204869631) | 2021 | 36 | 38 | +2 |
+| [Vine Weevil,Otiorhynchus sulcatus(Coleoptera: Curculionidae), Management: Current State and Future Perspectives](https://openalex.org/W4220832207) | 2022 | 12 | 14 | +2 |
 | [Extended time to maturity in Anopheles coluzzii : Implications of late egg hatch for vector control and transgene fitness](https://openalex.org/W4411090753) | 2025 | 0 | 1 | +1 |
-| [Terpene based biopesticides as potential alternatives to synthetic insecticides for control of aphid pests on protected ornamentals](https://openalex.org/W2802825342) | 2018 | 72 | 73 | +1 |
-| [Vine Weevil,Otiorhynchus sulcatus(Coleoptera: Curculionidae), Management: Current State and Future Perspectives](https://openalex.org/W4220832207) | 2022 | 12 | 13 | +1 |
+| [The clip cage conundrum: Assessing the interplay of confinement method and aphid genotype in fitness studies](https://openalex.org/W4390906255) | 2024 | 7 | 8 | +1 |
+| [Vertical farming systems bring new considerations for pest and disease management](https://openalex.org/W3007560514) | 2020 | 80 | 81 | +1 |
+| [‘The Garlic Gambit’: an alternative strategy for controlling vine weevil (Otiorhynchus sulcatus F.; Coleoptera: Curculionidae)](https://openalex.org/W4401441452) | 2024 | 1 | 2 | +1 |
 
 ![Latest citation gains](plots/latest_citation_gains.png)
 

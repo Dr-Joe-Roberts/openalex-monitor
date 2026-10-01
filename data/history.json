@@ -67,6 +67,44 @@
       "newly_indexed_publications": 0,
       "data_file": "monthly/2026-09.json",
       "report_file": "../reports/2026-09.md"
+    },
+    {
+      "period": "2026-10",
+      "snapshot_date": "2026-10-01",
+      "fetched_at": "2026-10-01T13:08:45+00:00",
+      "previous_snapshot_date": "2026-09-26",
+      "metrics": {
+        "raw": {
+          "works": 45,
+          "citations": 399,
+          "h_index": 9,
+          "i10_index": 9
+        },
+        "curated": {
+          "works": 45,
+          "citations": 399,
+          "h_index": 9,
+          "i10_index": 9
+        }
+      },
+      "metrics_change": {
+        "raw": {
+          "works": -1,
+          "citations": 2,
+          "h_index": 0,
+          "i10_index": 0
+        },
+        "curated": {
+          "works": 0,
+          "citations": 0,
+          "h_index": 0,
+          "i10_index": 0
+        }
+      },
+      "citation_gaining_publications": 0,
+      "newly_indexed_publications": 0,
+      "data_file": "monthly/2026-10.json",
+      "report_file": "../reports/2026-10.md"
     }
   ]
 }
